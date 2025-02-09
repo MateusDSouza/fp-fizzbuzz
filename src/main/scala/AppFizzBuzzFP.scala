@@ -1,7 +1,7 @@
 object AppFizzBuzzFP {
 
   val mockStreamNumbers: Long => List[Long] = (N: Long) => {
-    (1 to N.toInt).toList.map(_.toLong) // Convert to Long after range creation
+    (1 to N.toInt).toList.map(_.toLong)
   }
 
   val fizzBuzz: Long => String = {
